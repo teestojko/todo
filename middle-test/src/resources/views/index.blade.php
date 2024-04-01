@@ -43,10 +43,16 @@
         <div class="form__group">
           <div class="form__group--title">
             <span class="form__label--item">性別</span>
-            <span class="form__lavel--required">※</span>
+            <span class="form__label--required">※</span>
           </div>
           <div class="form__group-content">
-            <div class="form__input--text">
+            <div class="form__input--radio">
+                <input type="radio" id="male" name="gender" value="male"/>
+                <label for="male">男性</label>
+                <input type="radio" id="female" name="gender" value="female"/>
+                <label for="female">女性</label>
+                <input type="radio" id="other" name="gender" value="other"/>
+                <label for="other">その他</label>
             </div>
           </div>
         </div>
